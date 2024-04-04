@@ -1,0 +1,69 @@
+{
+    "name": "GoatCounter Integration",
+    "description": "This plugin allows site owners to easily integrate GoatCounter analytics and visitor counters into their Publii site.",
+    "license": "MIT",
+    "author": "htejera",
+    "version": "1.0.0", 
+    "scope": "site",
+    "minimumPubliiVersion": "0.40.0",
+    "usePluginSettingsView": false,
+    "messageInOptions": {
+        "type": "info",
+        "text": "Enter your GoatCounter site ID to integrate GoatCounter analytics into your site. Please remember that this plugin does not output the analytics code in preview mode by default. You can change this behavior using the 'Output code in Preview Mode' option."
+    },
+    "config": [
+        {
+            "name": "goatCounterCode",
+            "label": "GoatCounter code",
+            "note": "Enter the code of your GoatCounter site here.",
+            "group": "Configuration",
+            "value": "mycode",
+            "type": "text"
+        },
+        {
+            "name": "previewMode",
+            "label": "Output code in Preview Mode",
+            "note": "Enable this option only when checking or debugging analytics code generation. Leaving this option enabled can lead to false tracking data being generated when browsing your website in preview mode.",
+            "group": "Configuration",
+            "type": "checkbox",
+            "value": false
+        },
+        {
+            "name": "showVisitCounter",
+            "label": "Show Visitor Counter",
+            "note": "Enable to show the visitor counter on your site.",
+            "group": "Visitor Counter",
+            "type": "checkbox",
+            "value": false
+        },
+        {
+            "name": "visitCounterSelector",
+            "label": "Visitor Counter Selector",
+            "note": "CSS selector for the parent element where the visitor counter will be appended.",
+            "group": "Visitor Counter",
+            "value": "footer",
+            "type": "text"
+        },
+        {
+            "name": "visitCounterType",
+            "label": "Visitor Counter Type",
+            "note": "Type of visitor counter: html, svg, or png.",
+            "group": "Visitor Counter",
+            "value": "html",
+            "type": "select",
+            "options": [
+                {"label": "HTML", "value": "html"},
+                {"label": "SVG", "value": "svg"},
+                {"label": "PNG", "value": "png"}
+            ]
+        },
+        {
+            "name": "noBranding",
+            "label": "Remove GoatCounter Branding",
+            "note": "Enable to remove 'by GoatCounter' branding from the visitor counter.",
+            "group": "Visitor Counter",
+            "type": "checkbox",
+            "value": false
+        }
+    ]
+}
