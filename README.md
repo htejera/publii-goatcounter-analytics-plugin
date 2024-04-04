@@ -1,0 +1,1 @@
+# publii-goatcounter-analytics-plugin
