@@ -16,7 +16,7 @@ This plugin enables [Publii](https://getpublii.com/) site owners to easily integ
 
 ## Setup
 
-1. **GoatCounter Endpoint**: You’ll need to copy this into the Endpoint field:
+1. **GoatCounter Endpoint**: You’ll need to copy this into the Endpoint field on the plugin configuration screen.
 
    ![GoatCounter Encpoint](https://github.com/htejera/publii-goatcounter-analytics-plugin/blob/main/goatcounter-endpoint.jpg?raw=true)
 
