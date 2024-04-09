@@ -16,9 +16,9 @@ This plugin enables [Publii](https://getpublii.com/) site owners to easily integ
 
 ## Setup
 
-1. **GoatCounter Account**: Find your GoatCounter code in your GoatCounter dashboard.
+1. **GoatCounter Endpoint**: You’ll need to copy this to the integration settings:
 
-   ![GoatCounter Code](https://github.com/htejera/publii-goatcounter-analytics-plugin/blob/main/goatcounter-code.jpg?raw=true)
+   ![GoatCounter Encpoint](https://github.com/htejera/publii-goatcounter-analytics-plugin/blob/main/goatcounter-endpoint.jpg?raw=true)
 
 2. **Plugin Configuration**: Navigate to your Publii site settings and find the GoatCounter Integration plugin under the "Plugins" section.
 
