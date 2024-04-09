@@ -13,7 +13,7 @@ class GoatCounterIntegrationPlugin {
         let scriptToLoad = '';
 
         if (!rendererInstance.previewMode || this.config.previewMode) {
-            const goatCounterCode = this.config.goatCounterCode;
+            const endpoint = this.config.endpoint;
             const visitCounter = this.config.showVisitCounter ? `
                 <script>
                     var t = setInterval(function() {
@@ -30,7 +30,7 @@ class GoatCounterIntegrationPlugin {
 
             scriptToLoad = `
                 ${visitCounter}
-                <script data-goatcounter="https://${goatCounterCode}.goatcounter.com/count"
+                <script data-goatcounter="${endpoint}"
                         async src="//gc.zgo.at/count.js"></script>
             `;
         }

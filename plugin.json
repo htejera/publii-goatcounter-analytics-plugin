@@ -3,7 +3,7 @@
     "description": "This plugin allows site owners to easily integrate GoatCounter analytics and visitor counters into their Publii site.",
     "license": "MIT",
     "author": "htejera",
-    "version": "1.0.0", 
+    "version": "1.1.0", 
     "scope": "site",
     "minimumPubliiVersion": "0.40.0",
     "usePluginSettingsView": false,
@@ -13,11 +13,11 @@
     },
     "config": [
         {
-            "name": "goatCounterCode",
-            "label": "GoatCounter code",
-            "note": "Enter the code of your GoatCounter site here.",
+            "name": "endpoint",
+            "label": "Endpoint",
+            "note": "Enter the endopoint.",
             "group": "Configuration",
-            "value": "mycode",
+            "value": "",
             "type": "text"
         },
         {
